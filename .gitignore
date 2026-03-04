@@ -1,6 +1,15 @@
+# environment
 .env
-.env.*
+.env
+.env.local
+.env.production
+
+# python
 __pycache__/
 *.pyc
-venv/
-node_modules/
+
+# editor
+.vscode/
+
+# vector database
+vector_db/
